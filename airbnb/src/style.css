@@ -74,6 +74,19 @@ body {
     font-size: 12px;
 }
 
+.cards-container{
+    display: block;
+    margin-left: 20vw;   
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    
+}
+
 .card--image {
     width: 100%;
     border-radius: 9px;
