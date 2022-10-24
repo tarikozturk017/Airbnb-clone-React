@@ -70,6 +70,7 @@ body {
 }
 
 .card {
+    position: relative;
     width: 175px;
     font-size: 12px;
 }
@@ -99,4 +100,14 @@ body {
 
 .card--star {
     height: 14px;
+}
+
+.card--badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
